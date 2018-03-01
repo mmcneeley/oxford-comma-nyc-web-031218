@@ -11,7 +11,9 @@ def oxford_comma(array)
     array2 = [array.pop()]
     array2.unshift("and")
     puts array
+    puts "that was the first array without the last item"
     puts array2
+    puts "that was the last item"
     puts array.join(", ") + array2.join(" ")
     array.join(", ") + array2.join(" ")
   end
